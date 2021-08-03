@@ -1,3 +1,29 @@
+html{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
 body {
+    font-size: 14px;
+    font-family: arial, sans-serif;
+    color: #222;
+}
+
+.background{
     background-color: #fff;
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-image: none;
+    background-size: auto;
+    background-origin: padding-box;
+    background-clip: border-box;
+}
+
+.main-div{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 }
