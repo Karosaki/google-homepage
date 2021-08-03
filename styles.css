@@ -7,6 +7,14 @@ html, body{
     color: #222;
 }
 
+a:hover, a:active{
+    text-decoration: underline;
+}
+
+a{
+    text-decoration: none;
+}
+
 .background{
     background-color: #fff;
     background-position-x: 0%;
@@ -49,4 +57,72 @@ html, body{
 
 #left-nav-bar-about{
     margin-left: 15px;
+}
+
+.nav-bar-right-div{
+    display: inline-block;
+    flex-grow: 1;
+}
+
+.nav-bar-right-div-settings{
+    font-style: normal;
+    font-variant-caps: normal;
+    font-weight: normal;
+    font-stretch: normal;
+    font-size: 13px;
+    line-height: 27px;
+    font-family: Roboto, RobotoDraft, Arial, sans-serif;
+    font-size-adjust: none;
+    font-kerning: auto;
+    font-optical-sizing: auto;
+    font-variant-alternates: normal;
+    font-variant-east-asian: normal;
+    font-variant-ligatures: normal;
+    font-variant-numeric: normal;
+    font-variant-position: normal;
+    font-language-override: normal;
+    font-feature-settings: normal;
+    font-variation-settings: normal;
+
+    z-index: 986;
+    height: 48px;
+    min-width: auto;
+    color: black;
+    position: relative;
+    transition: box-shadow 250ms;
+}
+
+.nav-bar-right-div-final-container{
+    float: right;
+    padding-left: 32px;
+    box-sizing: border-box;
+    height: 48px;
+    line-height: normal;
+    padding: 0 4px;
+    justify-content: flex-end;
+    white-space: nowrap;
+    -moz-box-align: center;
+    align-items: center;
+    display: flex;
+    -moz-user-select: -moz-none;
+
+}
+
+.nav-bar-gmail-images{
+    font-family: arial, sans-serif;
+    line-height: normal;
+    padding-right: 15px;
+}
+
+.nav-bar-gmail{
+    display: inline-block;
+    padding-left: 15px;
+}
+
+.nav-bar-gmail-link{
+    display: inline-block;
+    line-height: 24px;
+    vertical-align: middle;
+    color: rgba(0,0,0,0.87);
+    text-decoration: none;
 }
